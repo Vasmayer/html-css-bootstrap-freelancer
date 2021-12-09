@@ -4,15 +4,27 @@
     height: 100px;
     border: 5px dotted black;
 }
-.col.jumbo
+.jumbo
 {
     background-color:burlywood;
-    height: 500px;
-    border: 5px dotted black;
+    height: 200px;
+    border: 5px solid black;
 }
-.col.image
+.image
 {
     background-color:chocolate;
+    height: 200px;
+    border: 5px solid black;
+}
+.about
+{
+    background-color:rebeccapurple;
+    height: 100px;
+    border: 5px solid black;
+}
+.about-text
+{
+    background-color:seagreen;
     height: 200px;
     border: 5px solid black;
 }
