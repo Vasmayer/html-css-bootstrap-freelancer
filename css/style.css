@@ -8,13 +8,24 @@ header .navbar-collapse {
     flex-grow:0;
 }
 
-header .bg-blue
+header,footer
 {
-    background-color: #3C3E4F;
-   
+    background-color: #3C3E4F; 
+}
+header .navbar-expand-sm
+{
+    justify-content: space-between;
 }
 #jumbotron.bg-green,#about.bg-green
 {
     background-color: #19BC9C;
    
+}
+#contact-me .form-control
+{
+    border-width: 0 0 1px 0;
+}
+.footer-bottom
+{
+    background-color: #48494e;
 }
