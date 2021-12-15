@@ -58,3 +58,8 @@
 {
     max-width: 250px;
 }
+/* PORTFOLIO */
+#portfolio img
+{
+    border-radius: 20px;
+}
