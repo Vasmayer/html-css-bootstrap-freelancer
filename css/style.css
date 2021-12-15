@@ -1,31 +1,60 @@
-header .container-fluid
+:root
 {
-    text-transform: uppercase;
-    color: white;
+    --bg-green: #19BC9C;
 }
-header .navbar-collapse {
+/* MENU A DESTRA NAVBAR */
+#navbarNav.navbar-collapse
+{
+    flex-grow: 0;
+}
 
-    flex-grow:0;
-}
-
-header,footer
+/*STARS*/
+.star
 {
-    background-color: #3C3E4F; 
+    font-size: 40px;
 }
-header .navbar-expand-sm
+.star-black::before
 {
-    justify-content: space-between;
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: black;
+    vertical-align: middle;
 }
-#jumbotron.bg-green,#about.bg-green
+.star-black::after
 {
-    background-color: #19BC9C;
-   
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: black;
+    vertical-align: middle;
 }
-#contact-me .form-control
+.star-white::before
 {
-    border-width: 0 0 1px 0;
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: white;
+    vertical-align: middle;
 }
-.footer-bottom
+.star-white::after
 {
-    background-color: #48494e;
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background-color: white;
+    vertical-align: middle;
+}
+/* JUMBOTRON */
+#jumbotron
+{
+    background-color: var(--bg-green);
+}
+#avatar
+{
+    max-width: 250px;
 }
