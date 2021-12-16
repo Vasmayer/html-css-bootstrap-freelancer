@@ -87,7 +87,12 @@ footer .bi{
 {
     color: var(--bg-green);
 }
-.footer-padding
+.footer-padding,address
 {
     padding: 50px 0;
+}
+/* ADDRESS */
+address
+{
+    background-color: #2C3E4F;
 }
