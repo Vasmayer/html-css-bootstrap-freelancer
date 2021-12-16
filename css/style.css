@@ -1,6 +1,7 @@
 :root
 {
     --bg-green: #19BC9C;
+    --bg-gray: #3B536D;
 }
 /* MENU A DESTRA NAVBAR */
 #navbarNav.navbar-collapse
@@ -50,7 +51,7 @@
     vertical-align: middle;
 }
 /* JUMBOTRON */
-#jumbotron
+#jumbotron,#about,.btn
 {
     background-color: var(--bg-green);
 }
@@ -62,4 +63,18 @@
 #portfolio img
 {
     border-radius: 20px;
+}
+/* CONTACT ME */
+#contact .form-control
+{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+/* FOOTER */
+footer
+{
+    background-color: var(--bg-gray);
+}
+footer .bi{
+
 }
